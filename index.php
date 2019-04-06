@@ -42,7 +42,7 @@
 <div id="days-remaining">
   <span id="days"></span> days remaining.
   probably <span id="pages"></span> pages.
-  <form action="/" method="GET">
+  <form>
     <input name="mailto" type="email" placeholder="email@email.com" />
     <button type="submit">subscribe</button>
   </form>
