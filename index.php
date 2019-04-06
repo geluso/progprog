@@ -1,7 +1,8 @@
 <?php
-  if ($_GET["mailto"]) {
-    $email = $_GET["mailto"];
-    mail($email, "subscribed to learn programming programming games", "thank you! look forward to updates in the future.");
+  if ($_POST["mailto"]) {
+    $email = $_POST["mailto"];
+    $headers = "CC: stevegeluso@gmail.com";
+    mail($email, "subscribed to learn programming programming games", "thank you! look forward to updates in the future.", $headers);
     echo "<p>subscribed $email!</p>";
   }
 ?>
@@ -42,7 +43,7 @@
 <div id="days-remaining">
   <span id="days"></span> days remaining.
   probably <span id="pages"></span> pages.
-  <form>
+  <form method="POST">
     <input name="mailto" type="email" placeholder="email@email.com" />
     <button type="submit">subscribe</button>
   </form>
