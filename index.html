@@ -1,3 +1,11 @@
+<?php
+  if ($_GET["mailto"]) {
+    $email = $_GET["mailto"];
+    mail($email, "subscribed to learn programming programming games", "thank you! look forward to updates in the future.");
+    echo "<p>subscribed $email!</p>";
+  }
+?>
+
 <style>
   body, input, button {
     font-size: 40px; 
@@ -34,8 +42,8 @@
 <div id="days-remaining">
   <span id="days"></span> days remaining.
   probably <span id="pages"></span> pages.
-  <form>
-    <input type="email" placeholder="email@email.com" />
+  <form action="/" method="GET">
+    <input name="mailto" type="email" placeholder="email@email.com" />
     <button type="submit">subscribe</button>
   </form>
 </div>
