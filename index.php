@@ -27,8 +27,11 @@
 
 <p>
   welcome to
-  <a href="http://learnprogrammingprogrammingboardgames.com">
-    learnprogrammingprogrammingboardgames.com
+  <a href="http://learnprogrammingprogrammingboardgames.com">learnprogrammingprogrammingboardgames.com</a>.
+
+  read
+  <a href="/book/00-intro">
+    the intro!
   </a>
 </p>
 
