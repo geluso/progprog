@@ -30,6 +30,9 @@
   <a href="http://learnprogrammingprogrammingboardgames.com">
     learnprogrammingprogrammingboardgames.com
   </a>
+  <a href="/00-intro">
+    read the intro!
+  </a>
 </p>
 
 <pre id="title">
