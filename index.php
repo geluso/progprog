@@ -33,6 +33,9 @@
   <a href="/book/00-intro">
     the intro!
   </a>
+  <a href="/00-intro">
+    read the intro!
+  </a>
 </p>
 
 <pre id="title">
