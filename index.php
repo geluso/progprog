@@ -23,25 +23,50 @@
     padding-left: 60px;
     height: 400px;
   }
+
+  #main {
+    position: relative;
+  }
+
+  #left {
+    position: absolute;
+    left: 0;
+  }
+  
+  #right {
+    position: absolute;
+    left: 50%;
+  }
+
+  #days-remaining {
+    position: absolute;
+    bottom: 0;
+  }
 </style>
 
 <p>
   welcome to
   <a href="http://learnprogrammingprogrammingboardgames.com">learnprogrammingprogrammingboardgames.com</a>.
-
-  read
-  <a href="/book/00-intro">
-    the intro!
-  </a>
 </p>
 
-<pre id="title">
+<div id="main">
+  <div id="left">
+    <pre id="title">
   LEARN
   PROGRAMMING
   PROGRAMMING
   BOARD
   GAMES
-</pre>
+    </pre>
+  </div>
+  <div id="right">
+    <ol>
+      <li><a href="http://learnprogrammingprogrammingboardgames.com/book/00-intro.pdf">intro</a></li>
+      <li><a href="http://learnprogrammingprogrammingboardgames.com/book/tic-tac-toe.pdf">Tic Tac Toe</a></li>
+      <li><a href="http://learnprogrammingprogrammingboardgames.com/book/connect-four.pdf">Connect Four</a></li>
+    </ol>
+  </div>
+</div>
 
 <div id="days-remaining">
   <span id="days"></span> days remaining.
