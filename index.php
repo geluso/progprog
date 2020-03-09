@@ -21,7 +21,8 @@
     background-repeat: no-repeat;
     padding-top: 160px;
     padding-left: 60px;
-    height: 400px;
+    height: 450px;
+    width: 500px;
   }
 
   #main {
