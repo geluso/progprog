@@ -59,7 +59,7 @@
 
 <p>
   welcome to
-  <a href="http://learnprogrammingprogrammingboardgames.com">learnprogrammingprogrammingboardgames.com</a>.
+  <a href="http://learnprogrammingprogrammingboardgames.com">learnprogrammingprogrammingboardgames.com</a>, by <a href="http://5tephen.com">5tephen.com</a> Geluso.
 </p>
 
 <div id="main">
