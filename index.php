@@ -64,6 +64,8 @@
       <li><a href="http://learnprogrammingprogrammingboardgames.com/book/00-intro.pdf">intro</a></li>
       <li><a href="http://learnprogrammingprogrammingboardgames.com/book/tic-tac-toe.pdf">Tic Tac Toe</a></li>
       <li><a href="http://learnprogrammingprogrammingboardgames.com/book/connect-four.pdf">Connect Four</a></li>
+      <li><a href="http://learnprogrammingprogrammingboardgames.com/book/poker-draft.pdf">Poker (draft)</a></li>
+      <li><a href="http://learnprogrammingprogrammingboardgames.com/book/philosophies.pdf">Personal Programming Philosophies</a></li>
     </ol>
   </div>
 </div>
