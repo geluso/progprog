@@ -7,6 +7,18 @@
   }
 ?>
 
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-5525850-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-5525850-4');
+  </script>
+</head>
+
 <style>
   body, input, button {
     font-size: 40px; 
@@ -21,7 +33,8 @@
     background-repeat: no-repeat;
     padding-top: 160px;
     padding-left: 60px;
-    height: 400px;
+    height: 450px;
+    width: 500px;
   }
 
   #main {
