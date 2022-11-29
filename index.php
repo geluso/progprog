@@ -20,12 +20,8 @@
 </head>
 
 <style>
-  body, input, button {
+  body, button {
     font-size: 40px; 
-  }
-
-  form {
-    display: inline
   }
 
   #title {
@@ -44,16 +40,22 @@
   #left {
     position: absolute;
     left: 0;
+    width: 50%;
   }
   
   #right {
     position: absolute;
     left: 50%;
+    width: 50%;
   }
 
-  #days-remaining {
-    position: absolute;
-    bottom: 0;
+  img {
+    max-width: 100%;
+    max-height: 800px;
+  }
+
+  form {
+    display: inline
   }
 </style>
 
@@ -64,13 +66,7 @@
 
 <div id="main">
   <div id="left">
-    <pre id="title">
-  LEARN
-  PROGRAMMING
-  PROGRAMMING
-  BOARD
-  GAMES
-    </pre>
+    <img src="./repo/book-covers/cover_goldenrod.png" />
   </div>
   <div id="right">
     <ol>
@@ -79,18 +75,45 @@
       <li><a href="http://learnprogrammingprogrammingboardgames.com/book/connect-four.pdf">Connect Four</a></li>
       <li><a href="http://learnprogrammingprogrammingboardgames.com/book/poker-draft.pdf">Poker (draft)</a></li>
       <li><a href="http://learnprogrammingprogrammingboardgames.com/book/philosophies.pdf">Personal Programming Philosophies</a></li>
+      <li>---</li>
+      <li><a href="http://learnprogrammingprogrammingboardgames.com/vision-board-learnprogrammingprogramminggames.pdf">The Vision Board</a></li>
     </ol>
-  </div>
-</div>
 
-<div id="days-remaining">
-  <span id="days"></span> days remaining.
-  probably <span id="pages"></span> pages.
-  <form method="POST">
-    <input name="mailto" type="email" placeholder="email@email.com" />
-    <button type="submit">subscribe</button>
-  </form>
-</div>
+    <div id="mc_embed_signup">
+      <form action="https://seamusbeacon.us21.list-manage.com/subscribe/post?u=b9cfd357cd96a3c3ceb777863&amp;id=a38e0ca988&amp;f_id=0079c2e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self">
+        <div id="mc_embed_signup_scroll">
+          <div class="mc-field-group">
+            <input type="email" placeholder="your@email.com" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
+            <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+            <a href="http://eepurl.com/ieOr39" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a>
+          </div>
+          <div id="mce-responses" class="clear foot">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b9cfd357cd96a3c3ceb777863_a38e0ca988" tabindex="-1" value=""></div>
+          <div class="optionalParent">
+            <div class="clear foot">
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <p></p>
+
+    <div id="days-remaining">
+      <span id="days"></span> days remaining.
+      probably <span id="pages"></span> pages.
+
+      <!--
+      <form method="POST">
+        <input name="mailto" type="email" placeholder="email@email.com" />
+        <button type="submit">subscribe</button>
+      </form>
+      -->
+    </div>
 
 <script>
   days.textContent = 100 + Math.floor(366 * Math.random()) // leap year haha
